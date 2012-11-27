@@ -1,0 +1,15 @@
+1.My thesis topic is about a general framework to publish motion sensor as a HTTP based web service.
+
+2.So this is the outline of today's talk: 
+I will start with an introduction about motion sensor and the idea of motion sensor based web service.
+Then I'll discuss about the problems I'm trying to solve in designing such a framework.
+After I'll briefly go over the literatures I reviewed for this work.
+Finally I'll present my design of the framework and the experiments I'm going to conduct to evaluate its performance.
+
+3.So first of all, what is motion sensor? motion sensor normally refers devices that can sense the motion.
+ The motion sensor my research targeted at is actually a special case that is composed by two key components:
+ One is a range camera to capture the depth information in its view volume, and the other a color camera to capture the color information in its view volume.
+ Those two kinds of data will later go through a human posture recognition pipeline to generate an abstraction of human body in 3D space, 
+ usually in the form of skeleton
+
+4.

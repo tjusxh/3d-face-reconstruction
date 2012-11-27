@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3DModelViewer", "3DModelViewer.vcxproj", "{320AEFB0-517D-44A9-B73A-439AACD001A0}"
+	ProjectSection(ProjectDependencies) = postProject
+		{01CFAA57-0B92-428B-84B9-5443471F7928} = {01CFAA57-0B92-428B-84B9-5443471F7928}
+		{8A48A67B-A851-4D75-8741-0C7FB32997F6} = {8A48A67B-A851-4D75-8741-0C7FB32997F6}
+		{43D586B9-5B3C-42C4-8511-142265950831} = {43D586B9-5B3C-42C4-8511-142265950831}
+		{EB19ADD4-0B8C-48C2-85C3-AA7B3D578CC8} = {EB19ADD4-0B8C-48C2-85C3-AA7B3D578CC8}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3D Face Register", "..\3D Face Register\3D Face Register.vcxproj", "{636D6C36-3A8C-4DCB-8037-C36507AC75EA}"
+	ProjectSection(ProjectDependencies) = postProject
+		{43D586B9-5B3C-42C4-8511-142265950831} = {43D586B9-5B3C-42C4-8511-142265950831}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3D registration", "..\3DMorphInterface\useTestLib.vcxproj", "{43D586B9-5B3C-42C4-8511-142265950831}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "nonNegLeastSqFit", "..\nonNegLeastSqFit\nonNegLeastSqFit.vcxproj", "{01CFAA57-0B92-428B-84B9-5443471F7928}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GLMlib", "..\GLMlib\GLMlib.vcxproj", "{8A48A67B-A851-4D75-8741-0C7FB32997F6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "stasm", "..\external\src\stasm3.1\vc10\stasm.vcxproj", "{EB19ADD4-0B8C-48C2-85C3-AA7B3D578CC8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{320AEFB0-517D-44A9-B73A-439AACD001A0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{320AEFB0-517D-44A9-B73A-439AACD001A0}.Debug|Win32.Build.0 = Debug|Win32
+		{320AEFB0-517D-44A9-B73A-439AACD001A0}.Release|Win32.ActiveCfg = Release|Win32
+		{320AEFB0-517D-44A9-B73A-439AACD001A0}.Release|Win32.Build.0 = Release|Win32
+		{636D6C36-3A8C-4DCB-8037-C36507AC75EA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{636D6C36-3A8C-4DCB-8037-C36507AC75EA}.Debug|Win32.Build.0 = Debug|Win32
+		{636D6C36-3A8C-4DCB-8037-C36507AC75EA}.Release|Win32.ActiveCfg = Release|Win32
+		{636D6C36-3A8C-4DCB-8037-C36507AC75EA}.Release|Win32.Build.0 = Release|Win32
+		{43D586B9-5B3C-42C4-8511-142265950831}.Debug|Win32.ActiveCfg = Debug|Win32
+		{43D586B9-5B3C-42C4-8511-142265950831}.Debug|Win32.Build.0 = Debug|Win32
+		{43D586B9-5B3C-42C4-8511-142265950831}.Release|Win32.ActiveCfg = Release|Win32
+		{43D586B9-5B3C-42C4-8511-142265950831}.Release|Win32.Build.0 = Release|Win32
+		{01CFAA57-0B92-428B-84B9-5443471F7928}.Debug|Win32.ActiveCfg = Debug|Win32
+		{01CFAA57-0B92-428B-84B9-5443471F7928}.Debug|Win32.Build.0 = Debug|Win32
+		{01CFAA57-0B92-428B-84B9-5443471F7928}.Release|Win32.ActiveCfg = Release|Win32
+		{01CFAA57-0B92-428B-84B9-5443471F7928}.Release|Win32.Build.0 = Release|Win32
+		{8A48A67B-A851-4D75-8741-0C7FB32997F6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8A48A67B-A851-4D75-8741-0C7FB32997F6}.Debug|Win32.Build.0 = Debug|Win32
+		{8A48A67B-A851-4D75-8741-0C7FB32997F6}.Release|Win32.ActiveCfg = Release|Win32
+		{8A48A67B-A851-4D75-8741-0C7FB32997F6}.Release|Win32.Build.0 = Release|Win32
+		{EB19ADD4-0B8C-48C2-85C3-AA7B3D578CC8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EB19ADD4-0B8C-48C2-85C3-AA7B3D578CC8}.Debug|Win32.Build.0 = Debug|Win32
+		{EB19ADD4-0B8C-48C2-85C3-AA7B3D578CC8}.Release|Win32.ActiveCfg = Release|Win32
+		{EB19ADD4-0B8C-48C2-85C3-AA7B3D578CC8}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
